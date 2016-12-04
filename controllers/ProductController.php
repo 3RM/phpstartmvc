@@ -2,7 +2,7 @@
 
 class ProductController{
     public function actionList(){
-        return true;
+        echo "ProductController actionList";
     }
 }
 

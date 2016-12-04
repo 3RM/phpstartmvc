@@ -1,5 +1,4 @@
 <?php
-
 //FRONT CONTROLLER
 
 //общие настройки
@@ -9,6 +8,7 @@ error_reporting(E_ALL);
 //подключение файлов системы
 define('ROOT',dirname(__FILE__));
 require_once(ROOT.'/components/Router.php');
+include_once ROOT . '/components/dbConnect.php';
 
 //соединение с БД
 
